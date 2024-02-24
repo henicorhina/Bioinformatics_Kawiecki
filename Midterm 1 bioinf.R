@@ -11,6 +11,7 @@ library(UniprotR)
 #aligning the .txt file 
 #naming it for convenience
 
+# the sequences.fasta file needs to be in your Bioinformatics folder
 humanalign <- readDNAStringSet("/Users/kamilkawiecki/Downloads/sequences.fasta")
 
 #msa alignment 

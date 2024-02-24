@@ -10,7 +10,11 @@ library(stringr)
 library(tidyr)
 library(ggplot2)
 
-ecoli <- read.table("/Users/kamilkawiecki/Documents/Bioinformatics/Accession_numbers.txt")
+# Accession_numbers.txt file not present in directory, so I can't check that it runs correctly
+# But the code all looks good
+# I did ask for answers to some questions about the diseases and pathologies, which I don't see
+# so I can't grade that part
+ecoli <- read.table("Accession_numbers.txt")
 class("ecoli")
 
 ecolichar<- ecoli$V1 
